@@ -18,7 +18,7 @@ extension SolanaDelegate {
 
 public class Solana {
     private let networking: Networking
-    private var networkURL: URL
+    public let networkURL: URL
     private let jsonrpc = "2.0"
     
     public var delegate: SolanaDelegate?
